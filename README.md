@@ -1,6 +1,6 @@
 # Fundamentals_of_Computing
 
-This GitHub repository contains my mini projects from Rice University's Fundamentals of Computing Coursera specialization. 
+This GitHub repository contains my mini projects for Rice University's Fundamentals of Computing Coursera specialization. 
 
 https://www.coursera.org/specializations/computer-fundamentals
 
