@@ -1,4 +1,4 @@
-# Fundamentals_of_Computing
+# Fundamentals of Computing 
 
 This GitHub repository contains my mini projects for Rice University's <a href="https://www.coursera.org/specializations/computer-fundamentals" target="_blank">Fundamentals of Computing</a> specialization on Coursera, which are listed below. Please also check out my website about this course <a href="https://kyleyasumiishi.github.io/Web-Development/Fund_of_Computing/index.html" target="_blank">Learning Programming with Fundamentals of Computing</a>!
 
