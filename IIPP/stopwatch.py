@@ -34,10 +34,11 @@ def stop():
     global variables SUCCESSFUL_STOPS and TOTAL_STOPS."""
     global TOTAL_STOPS, SUCCESSFUL_STOPS, IS_TIMER_STOPPED    
     timer.stop()
+    if IS_TIMER_STOPPED == False:
+        TOTAL_STOPS += 1
+    if COUNT % 10 == 10 and IS_TIMER_STOPPED == False:
+        SUCESSFUL_STOPS += 1
     IS_TIMER_STOPPED = True
-    TOTAL_STOPS += 1
-    if COUNT % 10 == 0:
-        SUCCESSFUL_STOPS += 1
      
 def reset():
     """Stops timer and resets all global variables to 0."""
