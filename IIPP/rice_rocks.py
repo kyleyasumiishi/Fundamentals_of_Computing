@@ -225,14 +225,14 @@ class Sprite:
 # mouseclick handlers that reset UI and conditions whether splash image is drawn
 def click(pos):
     global started, lives, score
-    score = 0
-    lives = 3
     center = [WIDTH / 2, HEIGHT / 2]
     size = splash_info.get_size()
     inwidth = (center[0] - size[0] / 2 < pos[0] < center[0] + size[0] / 2)
     inheight = (center[1] - size[1] / 2 < pos[1] < center[1] + size[1] / 2)
     soundtrack.play()
     if (not started) and inwidth and inheight:
+        score = 0
+        lives = 3
         started = True
         timer.start()
 
