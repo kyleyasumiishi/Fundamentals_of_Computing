@@ -229,8 +229,8 @@ def click(pos):
     size = splash_info.get_size()
     inwidth = (center[0] - size[0] / 2 < pos[0] < center[0] + size[0] / 2)
     inheight = (center[1] - size[1] / 2 < pos[1] < center[1] + size[1] / 2)
-    soundtrack.play()
     if (not started) and inwidth and inheight:
+        soundtrack.play()
         score = 0
         lives = 3
         started = True
