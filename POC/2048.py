@@ -85,23 +85,6 @@ class TwentyFortyEight:
             
         self._initial_tiles_dic = {1: self._initial_tiles_up, 2: self._initial_tiles_down,
                                   3: self._initial_tiles_left, 4: self._initial_tiles_right}
-        
-   
-#    def dic_test_up(self):
-#        """
-#        Used to test whether dictionary is set up properly.
-#        """
-#        
-#        return self._initial_tiles_dic[1]
-#    
-#    def dic_test_left(self):
-#        return self._initial_tiles_dic[3]
-#    
-#    def dic_test_down(self):
-#        return self._initial_tiles_dic[2]
-#    
-#    def dic_test_right(self):
-#        return self._initial_tiles_dic[4]
     
     def reset(self):
         """
@@ -113,11 +96,8 @@ class TwentyFortyEight:
             for col in range(self._width):
                 self._grid[row][col] = 0
                 
-        # comment out calls to new_tile for testing
         self.new_tile()
         self.new_tile()
-        
-#        return self._grid
 
     def __str__(self):
         """
@@ -151,7 +131,7 @@ class TwentyFortyEight:
         
         This method works as follows:
         1. Uses the direction in the OFFSETS dictionary to iterate over the 
-        entries of the associated row or column (traversal_dir) starting at the specified intial tile (start_row, start_col).
+        entries of the associated row or column (traversal_dir) starting at the specified initial tile (start_row, start_col).
         It retrieves the tile values from those entries, and stores them in temp_list.
         
         2. Calls the  merge function to merge the tile values in temp_list.
@@ -204,8 +184,6 @@ class TwentyFortyEight:
         # comment out call to new_tile for testing
         if is_grid_changed:
             self.new_tile()
-        
-#        return self._grid
 
     def new_tile(self):
         """
@@ -244,9 +222,6 @@ class TwentyFortyEight:
         Set the tile at position row, col to have the given value.
         """
         self._grid[row][col] = value
-        
-        # comment out return - used for testing purposes
-#        return str(self._grid)
 
     def get_tile(self, row, col):
         """
@@ -343,5 +318,5 @@ class TwentyFortyEight:
 #    
 ##run_test()
 
-#poc_2048_gui.run_gui(TwentyFortyEight(4, 4))
+poc_2048_gui.run_gui(TwentyFortyEight(4, 4))
 
