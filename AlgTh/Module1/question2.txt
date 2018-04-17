@@ -1,0 +1,19 @@
+Question 2
+
+In Homework 1, you saw Algorithm ER for generating random graphs and reasoned analytically about the properties of the ER graphs it generates. Consider the simple modification of the algorithm to generate random directed graphs: For every ordered pair of distinct nodes (i,j), the modified algorithm adds the directed edge from i to j with probability p.
+
+For this question, your task is to consider the shape of the in-degree distribution for an ER graph and compare its shape to that of the physics citation graph. In the homework, we considered the probability of a specific in-degree, k, for a single node. Now, we are interested in the in-degree distribution for the entire ER graph. To determine the shape of this distribution, you are welcome to compute several examples of in-degree distributions or determine the shape mathematically.
+
+Once you have determined the shape of the in-degree distributions for ER graphs, compare the shape of this distribution to the shape of the in-degree distribution for the citation graph. When answering this question, make sure to address the following points:
+
+Is the expected value of the in-degree the same for every node in an ER graph? Please answer yes or no and include a short explanation for your answer.
+
+Yes, the expected value of the in-degree is the same for every node in an ER graph because each edge has the same probability p of being added.
+
+What does the in-degree distribution for an ER graph look like? Provide a short written description of the shape of the distribution.
+
+The in-degree distribution for an ER graph has a distribution plot that is relatively horizontal on the y-axis and has points that are pretty evenly distributed over the x-axis.
+
+Does the shape of the in-degree distribution plot for ER look similar to the shape of the in-degree distribution for the citation graph? Provide a short explanation of the similarities or differences. Focus on comparing the shape of the two plots as discussed in the class page on "Creating, formatting, and comparing plots".
+
+The points in each plot can be approximated by a curve. The in-degree distribution plot for ER is a relatively horizontal linear line, since the probability p for each in-degree is the same. The in-degree distribution plot for the citation graph can be approximated by a downward sloping nonlinear curve.

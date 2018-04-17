@@ -1,0 +1,25 @@
+Question 5
+
+In this last problem, we will compare the in-degree distribution for the citation graph to the in-degree distribution for the DPA graph as constructed in Question 4. In particular, we will consider whether the shape of these two distributions are similar and, if they are similar, what might be the cause of the similarity.
+
+To help you in your analysis, you should consider the following three phenomena:
+
+The "six degrees of separation" phenomenon,
+The "rich gets richer" phenomenon, and
+The "Hierarchical structure of networks" phenomenon.
+
+If you're not familiar with these phenomena, you can read about them by conducting a simple Google or Wikipedia search. Your task for this problem is to consider how one of these phenomena might explain the structure of the citation graph or, alternatively, how the citations patterns follow one of these phenomena.
+
+When answering this question, please include answers to the following:
+
+Is the plot of the in-degree distribution for the DPA graph similar to that of the citation graph? Provide a short explanation of the similarities or differences. Focus on the various properties of the two plots as discussed in the class page on "Creating, formatting, and comparing plots".
+
+The plot of the in-degree distribution for the DPA graph is very similar to that of the citation graph. Here are some of the similarities: the number of points in each plot (27,770) is the same; both plots can be approximated by a downward sloping, nonlinear curve with a greater distribution of points in the lower right area of the plot where x approaches its maximum value and y approaches its minimum value. 
+
+Which one of the three social phenomena listed above mimics the behavior of the DPA process? Provide a short explanation for your answer.
+
+The "rich get richer" phenomenon, or the Matthew Effect, mimics the behavior of the DPA process. The Matthew Effect describes the phenomenon by which earlier nodes in a network have preferential attachment and are therefore more likely to attract additional nodes earlier on. This greater connectivity between earlier nodes increases over time. In the DPA process, the initial m nodes are more likely to attract additional nodes early on, and this greater connectivity of the initial m nodes grows as more nodes are added.
+
+Could one of these phenomena explain the structure of the physics citation graph? Provide a short explanation for your answer.
+
+Similarly, the "rich get richer" phenomenon can be used to explain the structure of the physics citation graph, as initial physics papers are more likely to be cited earlier on, and this greater connectivity among earlier physics paper increases as more papers come out.
